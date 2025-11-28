@@ -592,10 +592,10 @@ a {
 /* Botón flotante WhatsApp */
 .btn-wsp-floating {
   position: fixed;
-  width: 55px;      /* tamaño un poco mayor */
-  height: 55px;     /* tamaño un poco mayor */
-  bottom: 120px;    /* MÁS ABAJO */
-  right: 28px;      /* ligera corrección hacia adentro */
+  width: 58px;        /* tamaño más elegante */
+  height: 58px;       /* tamaño más elegante */
+  bottom: 90px;       /* bajarlo 10–15px más */
+  right: 25px;        /* NO lo tocamos */
   background-color: #25D366;
   border-radius: 50%;
   display: flex;
@@ -607,7 +607,7 @@ a {
 }
 
 .btn-wsp-floating img {
-  width: 65%;    /* icono más grande */
+  width: 68%;     /* icono más elegante */
 }
 
 .btn-wsp-floating:hover {
