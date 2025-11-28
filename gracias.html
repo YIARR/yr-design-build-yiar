@@ -5,67 +5,130 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Gracias</title>
 
-  <style>
-    body {
-      margin: 0;
-      padding: 0;
-      height: 100vh;
-      display: flex;
-      justify-content: center;
-      align-items: center;
-      font-family: "Segoe UI", Arial, sans-serif;
-      background: url("images/fondo-pro.jpg") no-repeat center center/cover;
-    }
+<style>
+  body {
+    margin: 0;
+    padding: 0;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: "Segoe UI", Arial, sans-serif;
 
-    .box {
-      background: rgba(255, 255, 255, 0.9);
-      padding: 35px;
-      border-radius: 15px;
-      width: 90%;
-      max-width: 420px;
-      text-align: center;
-      box-shadow: 0 6px 20px rgba(0,0,0,0.25);
-      animation: fadeIn 0.8s ease;
-    }
+    /* Fondo premium */
+    background:
+      linear-gradient(rgba(255,255,255,0.88), rgba(255,255,255,0.88)),
+      url("logo-yr.png") no-repeat center center/cover;
+  }
 
-    .logo {
-      width: 110px;
-      margin-bottom: 15px;
-    }
+  .box {
+    background: rgba(255, 255, 255, 0.9);
+    padding: 35px;
+    border-radius: 15px;
+    width: 100%;
+    max-width: 420px;
+    text-align: center;
+    box-shadow: 0px 4px 18px rgba(0, 0, 0, 0.1);
+  }
 
-    h1 {
-      color: #0b5ed7;
-      margin-bottom: 10px;
-    }
+  .logo {
+    width: 120px;
+    margin-bottom: 15px;
+  }
 
-    p {
-      color: #222;
-      font-size: 16px;
-      margin-top: 5px;
-    }
+  h1 {
+    color: #0057ff;
+    margin-bottom: 10px;
+  }
 
-    a {
-      display: inline-block;
-      margin-top: 20px;
-      padding: 10px 20px;
-      background: #0b5ed7;
-      color: white;
-      text-decoration: none;
-      border-radius: 8px;
-      font-weight: bold;
-      transition: 0.3s;
-    }
+  p {
+    color: #333;
+    margin-bottom: 15px;
+    line-height: 1.5;
+  }
 
-    a:hover {
-      background: #074bb1;
-    }
+  a.button {
+    display: inline-block;
+    margin-top: 10px;
+    padding: 10px 20px;
+    background: #0057ff;
+    color: white;
+    text-decoration: none;
+    border-radius: 8px;
+    font-weight: bold;
+  }
 
-    @keyframes fadeIn {
-      from {opacity: 0; transform: translateY(10px);}
-      to {opacity: 1; transform: translateY(0);}
-    }
-  </style>
-</head>
+  a.button:hover {
+    background: #0041cc;
+  }
+<style>
+  body {
+    margin: 0;
+    padding: 0;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: "Segoe UI", Arial, sans-serif;
+
+    /* FONDO PREMIUM DIFUMINADO */
+    background:
+      linear-gradient(rgba(255,255,255,0.88), rgba(255,255,255,0.88)),
+      url("logo-yr.png") no-repeat center center/cover;
+  }
+
+  .box {
+    background: rgba(255, 255, 255, 0.92);
+    backdrop-filter: blur(4px);
+    padding: 35px;
+    border-radius: 18px;
+    width: 100%;
+    max-width: 420px;
+    text-align: center;
+    box-shadow: 0px 6px 25px rgba(0, 0, 0, 0.15);
+    animation: fadein 0.6s ease;
+  }
+
+  .logo {
+    width: 110px;
+    margin-bottom: 15px;
+  }
+
+  h1 {
+    color: #0057ff;
+    margin-bottom: 10px;
+    font-size: 28px;
+  }
+
+  p {
+    color: #333;
+    font-size: 16px;
+    margin-top: 5px;
+    margin-bottom: 15px;
+    line-height: 1.5;
+  }
+
+  a.button {
+    display: inline-block;
+    margin-top: 10px;
+    padding: 12px 24px;
+    background: #0057ff;
+    color: white;
+    text-decoration: none;
+    border-radius: 10px;
+    font-weight: bold;
+    transition: 0.2s;
+  }
+
+  a.button:hover {
+    background: #003bbd;
+  }
+
+  @keyframes fadein {
+    from { opacity: 0; transform: translateY(15px); }
+    to { opacity: 1; transform: translateY(0); }
+  }
+</style>
 
 <body>
 
