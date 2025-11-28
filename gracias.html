@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Gracias</title>
+
+  <style>
+    body {
+      margin: 0;
+      padding: 0;
+      height: 100vh;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      font-family: "Segoe UI", Arial, sans-serif;
+      background: url("images/fondo-pro.jpg") no-repeat center center/cover;
+    }
+
+    .box {
+      background: rgba(255, 255, 255, 0.9);
+      padding: 35px;
+      border-radius: 15px;
+      width: 90%;
+      max-width: 420px;
+      text-align: center;
+      box-shadow: 0 6px 20px rgba(0,0,0,0.25);
+      animation: fadeIn 0.8s ease;
+    }
+
+    .logo {
+      width: 110px;
+      margin-bottom: 15px;
+    }
+
+    h1 {
+      color: #0b5ed7;
+      margin-bottom: 10px;
+    }
+
+    p {
+      color: #222;
+      font-size: 16px;
+      margin-top: 5px;
+    }
+
+    a {
+      display: inline-block;
+      margin-top: 20px;
+      padding: 10px 20px;
+      background: #0b5ed7;
+      color: white;
+      text-decoration: none;
+      border-radius: 8px;
+      font-weight: bold;
+      transition: 0.3s;
+    }
+
+    a:hover {
+      background: #074bb1;
+    }
+
+    @keyframes fadeIn {
+      from {opacity: 0; transform: translateY(10px);}
+      to {opacity: 1; transform: translateY(0);}
+    }
+  </style>
+</head>
+
+<body>
+
+  <div class="box">
+    <img src="images/logo-yr.png" class="logo" alt="YR Design & Build">
+    <h1>¡Gracias!</h1>
+    <p>Tu mensaje ha sido enviado con éxito.</p>
+    <p>Gracias por confiar en <strong>YR Design & Build</strong>.</p>
+    <p>Nos contactaremos contigo.</p>
+    <a href="https://yiarr.github.io/yr-design-build-yiar/">Volver al inicio</a>
+  </div>
+
+</body>
+</html>
