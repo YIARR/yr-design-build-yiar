@@ -589,3 +589,19 @@ a {
     background-repeat: no-repeat;
     box-shadow: 0 12px 30px rgba(15,23,42,0.16);
 }
+/* Botón de WhatsApp a la derecha en CONTACTO */
+.btn-wsp-right {
+  display: inline-block;
+  background-color: #25D366;
+  color: white;
+  padding: 12px 20px;
+  border-radius: 8px;
+  text-decoration: none;
+  font-weight: bold;
+  float: right;
+  margin-top: 10px;
+}
+
+.btn-wsp-right:hover {
+  background-color: #1ebc59;
+}
