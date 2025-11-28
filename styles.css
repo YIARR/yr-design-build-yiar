@@ -605,3 +605,9 @@ a {
 .btn-wsp-right:hover {
   background-color: #1ebc59;
 }
+/* Forzar alineación del botón en la sección de información */
+.info-box a.btn-wsp-right {
+  display: block;
+  width: fit-content;
+  margin-left: auto;
+}
