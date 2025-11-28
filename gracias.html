@@ -62,20 +62,17 @@
     background: #0041cc;
   }
 <style>
-  body {
-    margin: 0;
-    padding: 0;
-    height: 100vh;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    font-family: "Segoe UI", Arial, sans-serif;
-
-    /* FONDO PREMIUM DIFUMINADO */
-    background:
-      linear-gradient(rgba(255,255,255,0.88), rgba(255,255,255,0.88)),
-      url("logo-yr.png") no-repeat center center/cover;
-  }
+.box {
+    background: rgba(255, 255, 255, 0.55); /* más transparente */
+    backdrop-filter: blur(6px); /* efecto glass más fuerte */
+    padding: 35px;
+    border-radius: 18px;
+    width: 100%;
+    max-width: 420px;
+    text-align: center;
+    box-shadow: 0px 6px 25px rgba(0, 0, 0, 0.12);
+    animation: fadein 0.6s ease;
+}
 
   .box {
     background: rgba(255, 255, 255, 0.92);
